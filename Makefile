@@ -59,7 +59,7 @@ kmodincludedir = $(realpath $(KERNEL_SRC))/include/modules
 
 # If building the host's driver for a MIC co-processor card, which card
 # $(ARCH) it should support
-export MIC_CARD_ARCH
+export MIC_CARD_ARCH := k1om
 
 .PHONY: all install modules
 .PHONY: modules_install conf_install dev_install kdev_install
